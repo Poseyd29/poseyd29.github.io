@@ -89,7 +89,7 @@ ul {
     padding: 10px 0px 20px 0px;
 }
 
-h1 {
+.h1 {
     font-size: 93px;
     padding: 10px 0px 10px 0px;
     
@@ -123,7 +123,8 @@ body > section > p:nth-child(3) {
 } */
 
 .featured-p {
-    font-size: 32px;
+    font-size: 48px;
+    text-align: center;
 }
 
 .img-txt {
@@ -138,14 +139,14 @@ body > section > p:nth-child(3) {
     margin-right: auto;
     max-width: 1200px;
     display: flex;
-    height: 700px;
-    justify-content: space-between;
+    min-height: 1100px;
+    justify-content: center;
     text-align: center;
 }
 
 .feature-img {
-    width: 350px;
-    height: 400px;
+    width: 700px;
+    height: 800px;
     border-radius: 0.5rem;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -157,9 +158,9 @@ body > section > p:nth-child(3) {
 .featured-projects {
     flex: 1;
     flex-direction: row;
-    max-width: 350px;
-    width: 100%;
-    height: 400px;
+    max-width: 100%;
+    width: 700px;
+    height: 800px;
     position:relative;
 }
 
@@ -189,8 +190,8 @@ body > footer > section {
 }
 
 .social {
-    font-size: 24px;  
-    text-align: center; 
+    font-size: 24px;   
+    text-align: center;
 }
 
 
@@ -206,6 +207,7 @@ body > footer > section {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+    margin-bottom: 50px;
 }
 
 .flex {
@@ -239,17 +241,6 @@ body > footer > section {
 
 .height-half {
     height: 50%;
-}
-
-
-
-/* Portfolio page */
-
-.my-work-container {
-    display: flex;
-    justify-content: center;
-    margin: 40px 0 40px 0;
-
 }
 
 
@@ -403,14 +394,3 @@ body > footer > section {
 
 }
 
-@media(max-width: 768px) {
-
-}
-
-@media(min-width: 992px) {
-
-}
-
-@media(min-width: 1200px) {
-
-}
