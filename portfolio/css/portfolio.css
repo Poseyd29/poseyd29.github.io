@@ -330,6 +330,11 @@ body > footer > section {
     
 }
 
+
+
+
+
+
 @media(max-width: 576px) {
     .top-sec-container {
         display: flex;

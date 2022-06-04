@@ -300,6 +300,11 @@ body > footer > section {
         margin-bottom: 20px;
     }
 
+    .project {
+        display: flex;
+        justify-content: center
+    }
+
     .featured-p {
         font-size: 32px;
         text-align: center;
@@ -371,6 +376,11 @@ body > footer > section {
         height: 350px;
         position:relative;
         margin-bottom: 25px;
+    }
+
+    .project {
+        display: flex;
+        justify-content: center
     }
 
     .featured-p {
