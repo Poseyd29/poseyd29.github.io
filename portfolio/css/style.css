@@ -20,6 +20,22 @@
     font-family: 'Josefin Slab', serif;
 }
 
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
 html {
     min-height: 100vh;
     width: 100%;
@@ -403,11 +419,35 @@ body > footer > section {
 }
 
 @media(max-width: 768px) {
-
+    .feature-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 3em;
+    }
 }
 
 @media(min-width: 992px) {
-
+    .feature-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 3em;
+    }
 }
 
 @media(min-width: 1200px) {
@@ -430,7 +470,8 @@ body > footer > section {
         margin-right: auto;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        text-align: center;
+        flex-direction: column;
         height: 100%;
         align-items: center;
         text-align: center;

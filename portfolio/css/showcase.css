@@ -146,7 +146,7 @@ body > section > p:nth-child(3) {
 
 .feature-img {
     width: 700px;
-    height: 800px;
+    max-height: 800px;
     border-radius: 0.5rem;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -162,6 +162,7 @@ body > section > p:nth-child(3) {
     width: 700px;
     height: 800px;
     position:relative;
+    padding-bottom: 2.5em;
 }
 
 
@@ -243,6 +244,19 @@ body > footer > section {
     height: 50%;
 }
 
+.feature-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3em;
+}
 
 
 /* Media Queries */
@@ -373,10 +387,12 @@ body > footer > section {
         margin-right: auto;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
         flex-direction: column;
         height: 100%;
         align-items: center;
         text-align: center;
+        padding-bottom: 3em;
     }
 
     .featured-projects {
