@@ -244,6 +244,10 @@ body > footer > section {
     height: 50%;
 }
 
+.about-fnt {
+    font-size: 26px;
+}
+
 .feature-container {
     width: 100%;
     margin-left: auto;
@@ -438,6 +442,10 @@ body > footer > section {
         justify-content: center;
         display: flex;
         gap: 5rem;
+    }
+
+    .about-fnt {
+        font-size: 30px;
     }
 
 

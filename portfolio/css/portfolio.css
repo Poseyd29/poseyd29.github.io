@@ -244,6 +244,9 @@ body > footer > section {
     height: 50%;
 }
 
+.about-fnt {
+    font-size: 32px;
+}
 
 
 /* Portfolio page */
