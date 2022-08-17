@@ -149,7 +149,7 @@ body > section > p:nth-child(3) {
     border-radius: 0.5rem;
     margin-top: 25px;
     margin-bottom: 15px;
-    object-fit: cover;
+    object-fit: fill;
     
 }
 
