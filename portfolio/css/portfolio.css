@@ -204,6 +204,10 @@ body > footer > section {
     color: #ff5277;
 }
 
+.white {
+    color: #ffffff;
+}
+
 .container {
     width: 90%;
     margin-left: auto;
